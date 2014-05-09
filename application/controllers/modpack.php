@@ -169,13 +169,7 @@ class Modpack_Controller extends Base_Controller {
 			$modpack = new Modpack();
 			$modpack->name = Input::get('name');
 			$modpack->slug = Str::slug(Input::get('slug'));
-			echo '<pre>';
-			print_r($modpack);
-			echo '</pre>';
 			$modpack->save();
-			echo '<pre>';
-			print_r($modpack);
-			echo '</pre>';
 			return Redirect::to('modpack/view/'.$modpack->id);
 		} catch (Exception $e) {
 			Log::exception($e);
