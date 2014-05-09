@@ -1,1 +1,1 @@
-web: vendor/bin/herokup-php-apcahe2 public/
+web: vendor/bin/heroku-php-apcahe2 public/
