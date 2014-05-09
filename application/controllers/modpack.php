@@ -167,6 +167,7 @@ class Modpack_Controller extends Base_Controller {
 
 		try {
 			$modpack = new Modpack();
+			print_r($modpack);
 			$modpack->name = Input::get('name');
 			$modpack->slug = Str::slug(Input::get('slug'));
 			$modpack->save();
