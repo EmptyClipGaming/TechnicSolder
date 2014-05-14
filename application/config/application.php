@@ -13,7 +13,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://ec-solder.herokuapp.com',
+	'url' => 'http://solder.emptyclipgaming.com',
 
 	/*
 	|--------------------------------------------------------------------------
