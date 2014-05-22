@@ -42,7 +42,7 @@ return array(
 	|
 	*/
 
-	'default' => 'pgsql',
+	'default' => 'mysql',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -69,10 +69,10 @@ return array(
 
 		'mysql' => array(
 			'driver'   => 'mysql',
-			'host'     => '127.0.0.1',
-			'database' => 'database',
-			'username' => 'root',
-			'password' => '',
+			'host'     => 'us-cdbr-east-05.cleardb.net',
+			'database' => 'heroku_d836ed579862895',
+			'username' => 'be87d20d2f3564',
+			'password' => '6bbe26d7',
 			'charset'  => 'utf8',
 			'prefix'   => '',
 		),
