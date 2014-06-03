@@ -69,20 +69,20 @@ return array(
 
 		'mysql' => array(
 			'driver'   => 'mysql',
-			'host'     => 'us-cdbr-east-05.cleardb.net',
-			'database' => 'heroku_d836ed579862895',
-			'username' => 'be87d20d2f3564',
-			'password' => '6bbe26d7',
+			'host'     => getenv('DATABASE_HOST'),
+			'database' => getenv('DATABASE_NAME'),
+			'username' => getenv('DATABASE_USERNAME'),
+			'password' => getenv('DATABASE_PASSWORD'),
 			'charset'  => 'utf8',
 			'prefix'   => '',
 		),
 
 		'pgsql' => array(
 			'driver'   => 'pgsql',
-			'host'     => 'ec2-54-225-136-187.compute-1.amazonaws.com',
-			'database' => 'dcmdc0smsodj05',
-			'username' => 'reqsbjhyprsrqk',
-			'password' => 'X-wR_wsxPotmvGlu7M4UFUQMtV',
+			'host'     => '',
+			'database' => '',
+			'username' => '',
+			'password' => '',
 			'charset'  => 'utf8',
 			'prefix'   => '',
 			'schema'   => 'public',
