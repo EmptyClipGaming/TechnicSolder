@@ -50,12 +50,12 @@ return array(
 	/**
 	 * Amazon AWS Access Key
 	 */
-	'access_key' => 'AKIAIRHIVHCDN4XDL2MQ',
+	'access_key' => getenv('AWS_ACCESS_KEY'),
 
 	/**
 	 * Amazon AWS Secret Key
 	 */
-	'secret_key' => 'LYe8QUj7ELQR6N7PboE+fICVWdQdZMiKxkOFAY/K',
+	'secret_key' => getenv('AWS_SECRET_KEY'),
 
 	/**
 	 * Amazon S3 Bucket
